@@ -1,0 +1,32 @@
+﻿{
+	propertyEditors:[
+		{
+			name: "Nullable Int",
+			alias: "sum.NullableInt",
+			group: "SUM",
+			icon:"icon-code",
+			editor: {
+				view : "/app_plugins/sumnullablepropeditors/nullableint.html",
+				valueType: "INT"
+			}
+		},
+		{
+			name: "Nullable Number",
+			alias: "sum.NullableNum",
+			group: "SUM",
+			icon:"icon-code",
+			editor: {
+				view : "/app_plugins/sumnullablepropeditors/nullablenumber.html"
+			}
+		},
+		{
+			name: "Nullable True False",
+			alias: "sum.NullableTrueFalse",
+			group: "SUM",
+			icon:"icon-code",
+			editor: {
+				view : "/app_plugins/sumnullablepropeditors/nullabletruefalse.html"
+			}
+		}
+	]
+}

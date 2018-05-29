@@ -1,0 +1,10 @@
+﻿<div>
+    <input name="sumNumber" type="number" 
+           ng-model="model.value"
+           
+           ng-pattern="/^-?[0-9]+([,.][0-9]+)?$/"
+           fix-number
+            />
+    <span class="help-inline" val-msg-for="sumNumber" val-toggle-msg="pattern">Enter digits only.</span>
+
+</div>
